@@ -300,11 +300,11 @@ img{
   border-radius: .5rem;
   justify-self: center;
 }
-
-/*========== SERVICES ==========*/
-
-
-/*========== MENU ==========*/
+.about__img1{
+  width: 280px;
+  border-radius: .5rem;
+  justify-self: center;
+}
 
 
 /*========== APP ==========*/
@@ -404,6 +404,11 @@ img{
   .about__img, .app__img{
     width: 380px;
     order: -1;
+  }
+  .about__img1, .app__img{
+    width: 380px;
+    order: 1;
+    
   }
 
   .contact__container{
